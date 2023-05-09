@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <ul>
+    <ul id="menu">
       <li>
         <a href="index.html">Home</a>
       </li>
@@ -15,39 +16,77 @@
         <a href="contato.html">Contato</a>
       </li>
     </ul>
-    <h1>Entre em contato comigo</h1>
+    <h1 class="center">Entre em contato comigo</h1>
 
-    <form>
-      <label for="nome">Nome:</label> <br />
-      <input type="text" id="nome" />
-      <br />
-      <br />
+    <div class="container mb-50">
+      <div>
+        <form>
+          <label for="nome">Nome:</label> <br />
+          <input type="text" id="nome" />
+          <br />
+          <br />
 
-      <label for="email">E-mail:</label> <br />
-      <input type="email" id="email" />
-      <br />
-      <br />
+          <label for="email">E-mail:</label> <br />
+          <input type="email" id="email" />
+          <br />
+          <br />
 
-      <label for="assunto">Assunto:</label> <br />
-      <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-      <br />
-      <br />
-      <button>Enviar</button>
-    </form>
+          <label for="assunto">Assunto:</label> <br />
+          <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+          <br />
+          <br />
+          <button>Enviar</button>
+        </form>
+      </div>
 
-    <h2>Endereço:</h2>
-    <p>8447 Hollywood Blvd, Los Angeles, CA 90028, Estados Unidos</p>
+      <div class="ml-50">
+        <p>8447 Hollywood Blvd, Los Angeles, CA 90028, Estados Unidos</p>
 
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54128561.293471634!2d163.61225350000004!3d34.
-    10166740000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bfcb5ab9eb5b%3A0xdcf270124dc5f9be!2sGuillermo%20del%20Toro!
-    5e0!3m2!1spt-BR!2sbr!4v1683567492340!5m2!1spt-BR!2sbr"
-      width="600"
-      height="450"
-      style="border: 0"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
-    ></iframe>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54128561.293471634!2d163.61225350000004!3d34.
+        10166740000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bfcb5ab9eb5b%3A0xdcf270124dc5f9be!2sGuillermo%20del%20Toro!
+        5e0!3m2!1spt-BR!2sbr!4v1683567492340!5m2!1spt-BR!2sbr"
+          width="400"
+          height="250"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+    <hr />
+
+    <footer>
+      <div class="container">
+        <a href="https://github.com/chris-kauffmann" target="_blank">
+          <img
+            class="tm-social p-30"
+            src="assets/img/github.png"
+            alt="logo do github"
+          />
+        </a>
+
+        <a href="https://www.instagram.com/chriskauffmann/" target="_blank">
+          <img
+            class="tm-social p-30"
+            src="assets/img/instagram.png"
+            alt="logo do instagram"
+          />
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/christine-outi-kauffmann/"
+          target="_blank"
+        >
+          <img
+            class="tm-social p-30"
+            src="assets/img/linkedin.png"
+            alt="logo do linkedin"
+          />
+        </a>
+      </div>
+      <p class="center">Christine Kauffmann &copy;</p>
+    </footer>
   </body>
 </html>
